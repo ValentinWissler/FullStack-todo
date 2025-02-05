@@ -1,0 +1,8 @@
+<div>
+    <div *ngIf="errorMessage" class="error">
+        {{ errorMessage }}
+    </div>
+    <strong>{{ task?.title }}</strong>
+    <p class="taskDescription">{{ task?.description }}</p>
+    <span [ngClass]="{'status-completed': task?.status === 'Completed', 'status-pending': task?.status === 'To Do', 'status-in-progress': task?.status === 'in-progress'}">{{ task?.status }}</span>
+</div>
