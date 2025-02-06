@@ -1,6 +1,9 @@
 # FullStack-todo
 
+# How to install
 
+- clone the repo
+- do "npm install" in both the frontend and backend folders
 
 # How to run locally
 
